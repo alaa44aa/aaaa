@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+}
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin: auto;
+   width: 80%;
+   
+}
+nav ul li{
+    display: inline-block;
+    padding: 50px 32px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    list-style: none;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: red;
+
+}
+.logo{
+    color: white;
+    font-size: 35px;
+
+}
+span{
+    color: #f9004d;
+}
+.sub{
+    text-decoration: none;
+    padding:10px 32px;
+    font-weight: bold;
+    color: white;
+    background-color: #f9004d;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.sub:hover{
+    transform: scale(1.1);
+
+}
+.content{
+    margin-left: 8%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.content .img{
+    margin-right: 50px;
+    margin-bottom: 100px;
+    width: 500px;
+
+}
+.content .text h5{
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.content .text h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.content .text h4{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.cv{
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #f9004d;
+    padding: 10px 32px;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 0px 0px 5px black,0 0 8px #f9004f3d;
+   
+   
+}
+.cv:hover{
+    
+    background-color: transparent;
+    outline: none;
+    border: 2px solid white;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 40px;
+   
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50px;
+    
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50px;
+
+  }
+  .fa-instagram{
+    background: #C13584;
+    color: white;
+    border-radius:50px;
+   
+  }
+  .fa-youtube{
+    background: rgba(255, 0, 0, 0.87);
+    color: white;
+    border-radius:50px;
+   
+
+  }
+  .a{
+    color: white;
+    margin-left: 40%;
+    margin-bottom: 130px;
+    font-size:20px;
+    text-transform: capitalize;
+   
+
+  }
+  .img{
+    width: 100%;
+  }
+  
+
+
+
+
